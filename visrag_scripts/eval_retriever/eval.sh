@@ -19,7 +19,7 @@ RANK=0
 MASTER_ENDPOINT=localhost
 MASTER_PORT=23456
 
-CHECKPOINT_DIR="/data/checkpoints"
+CHECKPOINT_DIR="./checkpoints"
 TIMESTR=$(date "+%Y-%m-%d-%H%M%S")
 IDENTITY="eval-$TIMESTR-maxq-$MAX_Q_LEN-maxp-$MAX_P_LEN-bsz-$PER_DEV_BATCH_SIZE-pooling-$POOLING-attention-$ATTENTION-gpus-per-node-$GPUS_PER_NODE"
 RESULT_DIR="$CHECKPOINT_DIR/$IDENTITY"

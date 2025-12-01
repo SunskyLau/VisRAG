@@ -42,7 +42,7 @@ model.eval()
 
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
-queries = ["What does a dog look like?"]
+queries = ["What does a dog look like?", "What does a cat look like?"]
 passages = [
     Image.open(os.path.join(script_dir, 'test_image/cat.jpeg')).convert('RGB'),
     Image.open(os.path.join(script_dir, 'test_image/dog.jpg')).convert('RGB'),

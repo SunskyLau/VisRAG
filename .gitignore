@@ -173,3 +173,6 @@ kb/
 /tensorboard
 
 .DS_Store
+
+data/
+models/VisRAG-Ret/
